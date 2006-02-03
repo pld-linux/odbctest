@@ -5,8 +5,8 @@ Version:	1.9.2.7
 Release:	0.1
 License:	LGPL
 Group:		Applications/Databases
-Vendor:		OpenLink Software <iodbc@openlinksq.com>
 Source0:	http://duch.mimuw.edu.pl/~hunter/%{name}-%{version}.tar.gz
+# Source0-md5:	d9bf0d2362402a0c187f9f22456d20c8
 URL:		http://www.iodbc.org/
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
@@ -18,10 +18,6 @@ Aplikacja testuj±ca po³±czenia iODBC.
 
 %prep
 %setup -q
-
-%build
-# TODO: optflags
-%{__make}
 
 %install
 rm -rf $RPM_BUILD_ROOT
