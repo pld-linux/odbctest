@@ -1,5 +1,5 @@
 Summary:	iODBC test
-Summary(pl):	Narzêdzie testowe dla iODBC
+Summary(pl.UTF-8):   NarzÄ™dzie testowe dla iODBC
 Name:		odbctest
 Version:	1.9.2.7
 Release:	0.1
@@ -13,8 +13,8 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 iODBC connection test application.
 
-%description -l pl
-Aplikacja testuj±ca po³±czenia iODBC.
+%description -l pl.UTF-8
+Aplikacja testujÄ…ca poÅ‚Ä…czenia iODBC.
 
 %prep
 %setup -q
