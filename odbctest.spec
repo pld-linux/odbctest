@@ -1,5 +1,5 @@
 Summary:	iODBC test
-Summary(pl.UTF-8):   Narzędzie testowe dla iODBC
+Summary(pl.UTF-8):	Narzędzie testowe dla iODBC
 Name:		odbctest
 Version:	1.9.2.7
 Release:	0.1
